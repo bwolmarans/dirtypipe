@@ -24,6 +24,9 @@ Note I used a version from Docker Hub that took me almost a half hour to find wh
 
 ```py
 docker run -it ubuntu:impish-20220105 /bin/bash  
+apt-get update && apt install vim -y  
+apt install dnsutils -y
+apt install build-essential -y
 ```
 
 ![DirtyPipe](https://user-images.githubusercontent.com/4404271/157334089-2122780b-b5c4-4f98-bd5c-bd93b7ce5155.gif)

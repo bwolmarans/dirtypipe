@@ -5,7 +5,7 @@ Thank you Max Kellerman!  https://dirtypipe.cm4all.com/
 Make sure you have a buggy kernel.  They patched the mainlines 5 days ago, so you have to dig.  
 
 My Ubuntu 20.04 did not, so I had to get the Host machine on which I am running Docker to have the buggy kernel.  
-It originall had 5.04 and the POC did not work. So here is how we upgraded the kernel to 5.10.0 which should have the bug:  
+It originall had 5.04 and the POC did not work. So here is how you wll go about upgrading the kernel to 5.10.0 which has the bug:  
 
 ```py
 mkdir kernelfun  
